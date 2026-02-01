@@ -1,0 +1,11 @@
+
+# ROS 2
+build/
+install/
+log/
+
+# VS Code
+.vscode/
+
+# Templates / temp files
+*~
