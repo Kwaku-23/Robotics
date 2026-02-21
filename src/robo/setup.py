@@ -25,7 +25,10 @@ setup(
     entry_points={
         'console_scripts': [
             "test_node = robo.my_first_node:main",
-            "number_publisher = robo.number_publisher:main"
+            "number_publisher = robo.number_publisher:main",
+            "number_counter = robo.number_counter:main",
+            'image_publisher = robo.my_camera_pub:main',
+            'image_subscriber = robo.my_camera_sub:main'
         ],
     },
 )

@@ -5,7 +5,7 @@ from example_interfaces.msg import Int64
 class NumberCounterNode(Node):
     def __init__(self):
         super().__init__("number_counter")
-        self.counter=0
+        self.counter_=0
         self.number_subscriber=self.create_subscription(Int64,"number",self.callback_number,10)
         self.get_logger().info("Number Counter has been started")
 
